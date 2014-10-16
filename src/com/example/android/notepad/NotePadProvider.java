@@ -16,7 +16,7 @@
 
 package com.example.android.notepad;
 
-import com.example.android.notepad.NotePad.NoteColumns;
+import java.util.HashMap;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -34,7 +34,7 @@ import android.provider.LiveFolders;
 import android.text.TextUtils;
 import android.util.Log;
 
-import java.util.HashMap;
+import com.example.android.notepad.NotePad.NoteColumns;
 
 /**
  * Provides access to a database of notes. Each note has a title, the note
